@@ -60,7 +60,7 @@
                v-model="cardName" 
                @focus="isNameFocus = !isNameFocus"
                @blur="isNameFocus = !isNameFocus"
-               oninput="this.value = this.value.replace(/[\d\s\.]/g,'')">
+               oninput="this.value = this.value.replace(/[\d\s]/g,'')">
       </div>
       <div class="form-vc">
         <input class="vt" 
